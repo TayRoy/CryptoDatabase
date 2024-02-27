@@ -1,0 +1,15 @@
+public class Crypto extends ListItem {
+  
+  public int quantity;
+  public Blockchain myBlockchain;
+  
+  public Investor(String name, String symbol, int quantity, ListItem next) {
+    this.name = name;
+    this.identifier = symbol;
+    quantity = quantity;
+    this.next = next;
+    myBlockchain = new Blockchain();
+    
+  }
+  
+}//Cryptocurrency

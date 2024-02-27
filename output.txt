@@ -1,0 +1,651 @@
+COMP 2150 - A1 - Taylor Roy - 7812747
+
+# create four investors
+Success.
+Success.
+Success.
+Success.
+# attempt to create duplicate investor
+ERROR: Duplicate investor
+# create five cryptocurrencies
+Success.
+Success.
+Success.
+Success.
+Success.
+# attempt to create duplicate cryptocurrency
+ERROR: Duplicate cryptocurrency
+# successful mines
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+# investor not found
+ERROR: Investor not found
+# currency not found
+ERROR: Cryptocurrency not found
+# insufficient funds - CRY4
+ERROR: Insufficient currency
+# insufficient funds - CRY1
+ERROR: Insufficient currency
+# trade - currency not found - CRY7
+ERROR: Cryptocurrency not found for invtwo
+# trade - investor not found - invten
+ERROR: invten not found
+# trade - multiple not founds - only needs to detect one
+ERROR: invten not found
+# trade - insufficient funds for one investor - held
+ERROR: Insufficient funds for invone
+# trade - insufficient funds for one investor - not held
+ERROR: Cryptocurrency not found for invone
+# trade - insufficient funds for both investors - held - only needs to detect one
+ERROR: Insufficient funds for invone
+# trade - insufficient funds for both investors - not held - only needs to detect one
+ERROR: Cryptocurrency not found for invone
+# trade - insufficient CAD
+ERROR: Insufficient funds for invtwo
+# trade - same trader
+ERROR: Same trader
+# trade - multiple errors - only needs to report one
+ERROR: invten not found
+# successful trade - both cryptos, both new
+Success.
+Success.
+Success.
+# successful trade - both cryptos, both existing
+Success.
+# successful trade - one CAD - new currency
+Success.
+Success.
+# successful trade - one CAD - existing currency
+Success.
+# successful trade - both cryptos same
+Success.
+# some .. uh .. more trades.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+Success.
+# successful trade - investor is traded out of a currency
+Success.
+# nonexistent crypto report
+ERROR: Crypto not found
+# report all cryptos
+NAME: CRYPTO1 (CRY1)
+BANK: 100 CRY1
+LIST OF TRANSACTIONS:
+invone mined 500 CRY1 (Hash: 3413762)
+invtwo mined 400 CRY1 (Hash: 35569739)
+invone traded 100 CRY1 to invtwo for 5 CRY5 (Hash: 91931185)
+invone traded 200 CRY1 to invthree for 500 CAD (Hash: 93704469)
+invone traded 100 CRY1 to invtwo for 500 CAD (Hash: 95882131)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 118880736)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 121354129)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 124491479)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 137929568)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 142993251)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 145508514)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 163529358)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 170192871)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 180195576)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 192631677)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 206012290)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 234145180)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 249171628)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 249300493)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 252072751)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 256926352)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 265586939)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 269882126)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 277640550)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 296350598)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 307821017)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 308693518)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 333943127)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 358385876)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 389870378)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 420586237)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 442240588)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 451345528)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 451572913)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 459544437)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 481637861)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 484679971)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 487282483)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 517309490)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 525204546)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 548450857)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 580446002)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 596483218)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 605685908)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 618142003)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 634620963)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 666698359)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 680934429)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 699216447)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 710965758)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 735794270)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 739158227)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 760647388)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 784918148)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 791169623)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 817942807)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 841549449)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 860141178)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 860792906)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 879167514)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 881815629)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 911644048)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 926720636)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 955825440)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 969563872)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 973477377)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 990685353)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1014331033)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1018489866)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1035629228)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1060091861)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1066535883)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1093057989)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1095768584)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1107983414)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1120333771)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1131377527)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1150011496)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1182044078)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1214936692)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1234525119)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1238452464)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1257805514)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1278545205)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1306395937)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1339675177)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1355809419)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1367298940)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1369861255)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1381495091)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1385775295)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1396128507)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1427288994)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1448742429)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1465379357)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1468435382)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1486316150)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1510985297)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1515328634)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1536094675)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1556705565)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1570645088)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1604190705)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1625594387)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1644743649)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1661568559)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1684462126)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1704450512)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1717122471)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1729770912)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1754533441)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1755814549)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1784450185)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1799578080)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1803165479)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1822424519)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1844933048)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1869527362)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1873457727)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1887352869)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1891083547)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1921788238)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1937300631)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1962155940)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1978007393)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1987414327)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1997829551)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2004822619)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2029656558)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2040222053)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2071705330)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2091827308)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2120622356)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2120890916)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2139541569)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2151474934)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2169714588)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2177967967)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2199658355)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2231187541)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2246809242)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2260816501)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2263759282)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2267770290)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2294452479)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2326858647)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2344087289)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2372180501)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2379247026)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2408766176)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2429597218)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2434214592)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2449835075)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2455727348)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2473281523)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2493085207)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2518221007)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2532689892)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2565251358)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2570672476)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2585595015)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2593698081)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2597414646)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2603115469)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2606518349)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2622646140)
+invone traded 100 CRY1 to invthree for 300 CRY3 (Hash: 67380079)
+ERROR: Block(s) altered
+---------------------------------------------------------
+NAME: CRYPTO2 (CRY2)
+BANK: 0 CRY2
+LIST OF TRANSACTIONS:
+invone mined 1000 CRY2 (Hash: 1576717)
+invone traded 100 CRY2 to invtwo for 100 CRY3 (Hash: 47826149)
+invone traded 100 CRY1 to invthree for 300 CRY3 (Hash: 67380079)
+ERROR: Block(s) altered
+---------------------------------------------------------
+NAME: CRYPTO3 (CRY3)
+BANK: 500 CRY3
+LIST OF TRANSACTIONS:
+invthree mined 100 CRY3 (Hash: 13611255)
+invthree mined 200 CRY3 (Hash: 21584699)
+invtwo mined 200 CRY3 (Hash: 45181407)
+invone traded 100 CRY2 to invtwo for 100 CRY3 (Hash: 47826149)
+invone traded 100 CRY1 to invthree for 300 CRY3 (Hash: 67380079)
+ERROR: Block(s) altered
+---------------------------------------------------------
+NAME: CRYPTO4 (CRY4)
+BANK: 1000 CRY4
+LIST OF TRANSACTIONS:
+Successful report.
+---------------------------------------------------------
+NAME: CRYPTO5 (CRY5)
+BANK: 980 CRY5
+LIST OF TRANSACTIONS:
+invtwo mined 10 CRY5 (Hash: 31978388)
+invone mined 10 CRY5 (Hash: 59556824)
+invone traded 100 CRY1 to invtwo for 5 CRY5 (Hash: 91931185)
+invone traded 200 CRY1 to invthree for 500 CAD (Hash: 93704469)
+invone traded 100 CRY1 to invtwo for 500 CAD (Hash: 95882131)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 118880736)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 121354129)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 124491479)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 137929568)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 142993251)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 145508514)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 163529358)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 170192871)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 180195576)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 192631677)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 206012290)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 234145180)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 249171628)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 249300493)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 252072751)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 256926352)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 265586939)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 269882126)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 277640550)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 296350598)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 307821017)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 308693518)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 333943127)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 358385876)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 389870378)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 420586237)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 442240588)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 451345528)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 451572913)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 459544437)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 481637861)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 484679971)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 487282483)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 517309490)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 525204546)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 548450857)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 580446002)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 596483218)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 605685908)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 618142003)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 634620963)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 666698359)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 680934429)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 699216447)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 710965758)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 735794270)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 739158227)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 760647388)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 784918148)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 791169623)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 817942807)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 841549449)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 860141178)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 860792906)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 879167514)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 881815629)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 911644048)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 926720636)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 955825440)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 969563872)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 973477377)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 990685353)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1014331033)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1018489866)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1035629228)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1060091861)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1066535883)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1093057989)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1095768584)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1107983414)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1120333771)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1131377527)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1150011496)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1182044078)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1214936692)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1234525119)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1238452464)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1257805514)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1278545205)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1306395937)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1339675177)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1355809419)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1367298940)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1369861255)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1381495091)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1385775295)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1396128507)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1427288994)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1448742429)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1465379357)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1468435382)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1486316150)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1510985297)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1515328634)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1536094675)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1556705565)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1570645088)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1604190705)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1625594387)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1644743649)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1661568559)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1684462126)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1704450512)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1717122471)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1729770912)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1754533441)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1755814549)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1784450185)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1799578080)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1803165479)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1822424519)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1844933048)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1869527362)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1873457727)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1887352869)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1891083547)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1921788238)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1937300631)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1962155940)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1978007393)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 1987414327)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 1997829551)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2004822619)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2029656558)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2040222053)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2071705330)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2091827308)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2120622356)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2120890916)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2139541569)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2151474934)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2169714588)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2177967967)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2199658355)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2231187541)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2246809242)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2260816501)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2263759282)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2267770290)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2294452479)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2326858647)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2344087289)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2372180501)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2379247026)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2408766176)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2429597218)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2434214592)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2449835075)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2455727348)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2473281523)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2493085207)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2518221007)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2532689892)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2565251358)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2570672476)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2585595015)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2593698081)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2597414646)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2603115469)
+invone traded 101 CRY1 to invtwo for 100 CRY1 (Hash: 2606518349)
+invone traded 100 CRY1 to invtwo for 101 CRY1 (Hash: 2622646140)
+invone traded 100 CRY1 to invthree for 300 CRY3 (Hash: 67380079)
+ERROR: Block(s) altered
+---------------------------------------------------------
+# nonexistent report investor
+ERROR: Investor not found
+# report all investors
+
+NAME: Investor One
+  ID: invone
+BANK: 2000CAD
+LIST OF OWNED CRYPTOS:
+ CRYPTO: CRYPTO3
+  FUNDS: 400 CRY3
+----------------------------------------
+ CRYPTO: CRYPTO5
+  FUNDS: 15 CRY5
+----------------------------------------
+ CRYPTO: CRYPTO2
+  FUNDS: 1000 CRY2
+----------------------------------------
+ CRYPTO: CRYPTO1
+  FUNDS: 201 CRY1
+----------------------------------------
+
+NAME: Investor Two
+  ID: invtwo
+BANK: 500CAD
+LIST OF OWNED CRYPTOS:
+ CRYPTO: CRYPTO2
+  FUNDS: 100 CRY2
+----------------------------------------
+ CRYPTO: CRYPTO3
+  FUNDS: 200 CRY3
+----------------------------------------
+ CRYPTO: CRYPTO5
+  FUNDS: 5 CRY5
+----------------------------------------
+ CRYPTO: CRYPTO1
+  FUNDS: 599 CRY1
+----------------------------------------
+
+NAME: Investor Three
+  ID: invthree
+BANK: 500CAD
+LIST OF OWNED CRYPTOS:
+ CRYPTO: CRYPTO1
+  FUNDS: 300 CRY1
+----------------------------------------
+
+NAME: Investor Four
+  ID: invfour
+BANK: 0CAD
+LIST OF OWNED CRYPTOS:
+# END
+> 

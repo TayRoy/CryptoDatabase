@@ -1,0 +1,18 @@
+public class Trade extends Transaction {
+  
+  String user2;
+  String crypto2;
+  int quantity2;
+  
+  public Trade(String id1, String id2, String symbol1, String symbol2, int quantity1, quantity2) {
+    user1 = id1;
+    user2 = id2;
+    crypto1 = symbol1;
+    crypto2 = symbol2;
+    this.quantity1 = quantity1;
+    this.quantity2 = quantity2;
+    hash = this.hash();
+    next = null;
+  }
+  
+}//Trade

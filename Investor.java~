@@ -1,0 +1,22 @@
+public class Investor extends ListItem {
+  
+  CryptoList myCryptos;
+  
+  public Investor(String name, String id, int quantity, ListItem next) {
+    this.name = name;
+    this.identifier = id;
+    this.next = next;
+    myCryptos = new CryptoList();
+    myCryptos.newCrypto("Canadian Dollar", "CAD", quantity, null);
+  }
+  
+  public void print() {
+    System.out.println("NAME: " + name);
+    System.out.println("  ID: " + identifier);
+    Crypto myCAD = myCryptos.search("CAD")
+    System.out.println("BANK: " + myCAD.quantity + "CAD");
+    System.out.println("LIST OF OWNED CRYPTOS:");
+    
+    //make method in cryptolist class to print
+  
+}//Investor

@@ -1,0 +1,11 @@
+public class Mine extends Transaction(String id, char symbol, int quantity)  {
+  
+  public Mine(String id, String symbol, int quantity) {
+    user1 = id;
+    crypto1 = symbol;
+    quantity1 = quantity;
+    hash = this.hash();
+    next = null;
+  }
+  
+}//Mine

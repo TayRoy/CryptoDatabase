@@ -1,0 +1,24 @@
+public class InvestorList extends List {
+  
+  public InvestorList() {
+    top = null;
+  }
+  
+  public void newInvestor(String name, String id, int bank, Investor next) {
+    Investor newInvestor = search(id);
+    if(newInvestor == null) {
+      top = new Investor(name, id, bank, top);
+      System.out.println("Success.");
+    }
+    else
+      System.out.println("ERROR: Duplicate investor");
+  }
+  
+  public Investor search(String id) {
+    Investor curr = (Investor)top;
+    while(curr != null && !curr.id.equals(data))
+        curr = (Investor)curr.next;
+    return curr;
+  }
+  
+}//InvestorList

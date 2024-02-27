@@ -1,0 +1,9 @@
+public abstract class List {
+  
+  ListItem top;
+  
+  
+  
+  
+  
+}//List

@@ -1,0 +1,97 @@
+public class Blockchain extends List {
+  
+  public Transaction end;
+  
+  public Blockchain() {
+    top = null;
+    end = null;
+  }
+  
+  public void newMine(Mine block, InvestorList allInvestors, CryptoList allCryptos) {
+    //search for investor and crypto in database
+    Investor user = allInvestors.search(block.user1);
+    Crypto crypto = allCryptos.search(block.crypto1);
+    //check if both exist
+    if(user != null && crypto != null) {
+      //check for sufficient funds
+      if(block.quantity1 <= crypto.quantity) {
+        //add mined crypto to investor funds
+        user.myCryptos.search(block.crypto1).quantity += block.quantity1;
+        //subtract mined crypto from crypto bank
+        crypto.quantity -= block.quantity1;
+        //add the block to the crypto's blockchain
+        addBlock(crypto, block);
+        System.out.println("Success.");
+      }
+      else
+        System.out.println("ERROR: Insufficient currency");
+    }
+    else {
+      if(user == null)
+        System.out.println("ERROR: Investor not found");
+      if(crypto == null)
+        System.out.println("ERROR: Cryptocurrency not found");
+    }
+  }
+  
+  public void newTrade(Trade block, InvestorList allInvestors, CryptoList allCryptos) {
+    //search for the investors in database
+    Investor user1 = search(block.user1);
+    Investor user2 = search(block.user2);
+    //check if the investors exist
+    if(user1 != null && user2 != null) {
+      //check that they aren't the same investor
+      if(!user1.identifier.equals(user2.identifier)) {
+        //search for outgoing cryptos of each investor
+        Crypto user1_crypto = user1.myCryptos.search(block.crypto1);
+        Crypto user2_crypto = user2.myCryptos.search(block.crypto2);
+        //check if those outgoing cryptos exist for both
+        if(user1_crypto != null && user2_crypto != null) {
+          //check if sufficient funds for both
+          if(user1_crypto.quantity >= block.quantity1 && user2_crypto.quantity >= block.quantity2) {
+            Crypto user1_crypto_new = user1.myCryptos.search(block.crypto2);
+            Crypto user2_crypto_new = user2.myCryptos.search(block.crypto1);
+            //create new crypto in investors' if not already owned
+            if(user1_crypto_new == null)
+              user1.myCryptos.newCrypto(user2_crypto.name, user2_crypto.identifier, block.quantity2, null);
+            else
+              user1_crypto_new.quantity += block.quantity2;
+            if(user2_crypto_new == null)
+              user2.myCryptos.newCrypto(user1_crypto.name, user1_crypto.identifier, block.quantity1, null);
+            else
+              user2_crypto_new.quantity += block.quantity1;
+            //add the trade to the blockchain of the one or both cryptos
+            if(user1_crypto_new.identifier.equals(user2_crypto_new.identifier)) {
+              Crypto crypto_for_blockchain = allCryptos.search(user1_crypto_new.identifier);
+              crypto_for_blockchain.myBlockchain.addBlock(block);
+            }
+            else {
+              Crypto crypto1_for_blockchain = allCryptos.search(user1_crypto_new.identifier);
+              Crypto crypto2_for_blockchain = allCryptos.search(user2_crypto_new.identifier);
+              crypto1_for_blockchain.myBlockchain.addBlock(block);
+              crypto2_for_blockchain.myBlockchain.addBlock(block);
+            }
+            System.out.println("Success.");
+          }
+        }
+        else if(user1_crypto == null)
+          System.out.println("ERROR: Cryptocurrency not found for " + user1.name);
+        else if(user2_crypto == null)
+          System.out.println("ERROR: Cryptocurrency not found for " + user2.name);
+      }
+      else
+        System.out.println("ERROR: Same trader");
+    }
+    else if(user1 == null)
+      System.out.println("ERROR: " + block.user1 + "not found");
+    else if(user2 == null)
+      System.out.println("ERROR: " + block.user2 + "not found");
+  }
+    
+    public void addBlock(Transaction block) {
+      end.next = block;
+      block.hash += end.hash;
+      end = block;
+    }
+    
+}//Blockchain

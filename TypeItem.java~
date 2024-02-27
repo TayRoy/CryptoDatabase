@@ -1,0 +1,6 @@
+public abstract class TypeItem extends ListItem {
+      
+      String name;
+      String identifier;
+      
+}

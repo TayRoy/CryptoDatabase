@@ -1,0 +1,11 @@
+public class Database {
+  
+  public InvestorList allInvestors;
+  public CryptoList allCryptos;
+  
+  public Database() {
+    allInvestors = new InvestorList();
+    allCryptos = new CryptoList();
+  }
+  
+}

@@ -1,0 +1,7 @@
+public abstract class ListItem {
+  
+  ListItem next;
+  
+  public abstract void print();    
+  
+}//ListItem
